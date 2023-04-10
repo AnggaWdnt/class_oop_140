@@ -1,8 +1,11 @@
-// class_oop_140.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
 
+class mahasiswa {
+public:
+    string nim;
+    string nama;
+};
 int main()
 {
     std::cout << "Hello World!\n";
