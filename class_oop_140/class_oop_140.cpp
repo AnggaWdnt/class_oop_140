@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class mahasiswa {
+class Mahasiswa {
 public:
     string nim;
     string nama;
@@ -11,7 +11,7 @@ public: void cetak() {
     }
 };
 
-class matakuliah {
+class Matakuliah {
 private:
     string kode;
     string namaM;
@@ -34,7 +34,8 @@ public:
 
 int main()
 {
-
+    Mahasiswa mhs1;
+    Matakuliah mk;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
